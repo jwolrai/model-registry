@@ -1,0 +1,39 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp/
+.pnp.js
+.env
+.DS_Store
+build/
+dist/
+coverage/
+
+# Log files
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+
+# Editor-specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Uploads or generated content (if applicable)
+uploads/
+public/uploads/
+
+# Database files (if applicable, e.g., SQLite)
+*.sqlite
+*.sqlite3
+*.db
