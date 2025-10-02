@@ -5,7 +5,7 @@
 myapp/
 ├─ app.js
 ├─ modelRegistry.js        # The loader
-├─ modelsHub.js            # Optional wrapper to prevent cyclic issues
+├─ modelsHub.js            # Optional wrapper for cleaner interface
 ├─ modules/
 │   ├─ users/
 │   │   ├─ controllers/

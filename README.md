@@ -13,3 +13,10 @@ Automatically loads models from modules, supports multiple models per module, an
 * Can be used in combination with HMVC-style modular routing.
 
 ---
+---
+
+## Notes
+
+* Use model with factory function to avoid cyclic loading issue
+
+---

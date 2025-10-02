@@ -77,6 +77,9 @@ const modelRegistry  = (() => {
      * Get all model of specific module
      */
     getModel(moduleName) {
+      if (!models[moduleName]) {
+        throw new Error(`Module "${moduleName}" not found in model registry.`);
+      }
       return models[moduleName];
     }
   };
