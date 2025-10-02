@@ -59,10 +59,10 @@ modelRegistry.init();
 const models = require("../../models"); // wrapper or registry
 
 // Example: get a model
-const userModel = models.getModel("users", "userModel");
+const userModel = models.getModel("users");
 
 // Use model methods
-const allUsers = userModel.getAll();
+const allUsers = userModel.userModel.getAll();
 ```
 
 ---
@@ -85,12 +85,12 @@ const allUsers = userModel.getAll();
 }
 ```
 
-### `modelRegistry.getModel(moduleName, modelName)`
+### `modelRegistry.getModel(moduleName)`
 
-* Returns a specific model:
+* Returns all model of specific module:
 
 ```js
-const userModel = modelRegistry.getModel("users", "userModel");
+const userModel = modelRegistry.getModel("users");
 ```
 
 ---
